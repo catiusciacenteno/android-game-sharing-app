@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#01051B"
+    tools:context=".SecondActivity">
+
+    <ImageView
+        android:id="@+id/imgTft"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1Acitivty2"
+        app:srcCompat="@drawable/tft_img" />
+
+    <Button
+        android:id="@+id/btnPou"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/btnShare"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.188"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPou"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSubwaySurf"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/btnShare"
+        app:layout_constraintEnd_toStartOf="@+id/btnTft"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgSubwaySurf" />
+
+    <ImageView
+        android:id="@+id/imgSubwaySurf"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toStartOf="@+id/imgTft"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt1Acitivty2"
+        app:srcCompat="@drawable/subway_surf_img" />
+
+    <Button
+        android:id="@+id/btnTft"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/btnShare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgTft" />
+
+    <TextView
+        android:id="@+id/txt1Acitivty2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="80dp"
+        android:text="@string/txt1Acitivy2"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgPou"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSubwaySurf"
+        app:srcCompat="@drawable/pou_android_icone" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

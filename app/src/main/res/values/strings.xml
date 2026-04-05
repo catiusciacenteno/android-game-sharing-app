@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstProject</string>
+    <string name="btnStart">Começar a compartilhar</string>
+    <string name="titleApp">|SHAREGAMES</string>
+    <string name="txt1Acitivy2">Escolha um jogo para compartilhar</string>
+    <string name="btnShare">Compartilhar</string>
+</resources>
