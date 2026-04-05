@@ -5,7 +5,7 @@ A simple Android application built with Java that allows users to navigate betwe
 ---
 
 ## 📸 Preview
-![demo](res/drawable/demo.gif)
+![demo](app/src/main/res/drawable/demo.gif)
 ---
 
 ## 🎯 Features
